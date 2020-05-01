@@ -505,12 +505,10 @@ if(isset($tx)){
   'chat_id' =>$pay,
   'user_id' => $cid,
   ]);
-$kanal = "@UjasKinola_HD";
   $gettt = bot('getChatMember',[
   'chat_id' =>$kanal,
   'user_id' => $cid,
   ]);
-$kanal = "@FantasticFilmsHD";
   $getttt = bot('getChatMember',[
   'chat_id' =>$hamkor,
   'user_id' => $cid,
